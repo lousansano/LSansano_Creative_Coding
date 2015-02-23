@@ -34,19 +34,15 @@ void setup(){
  
 void draw (){
   background(25);
-  PFont h;
-  h = createFont("Helvetica",16,true);
-  textFont(h,36);
-  textAlign(CENTER);
-  fill(255);
-  if (keyPressed == false) {
-    text("b/w/q", 250, 50);
-  }
-}
-void keyPressed () {
-     PFont f;
-    f = createFont("Helvetica",16,true);
-  if (key == 'b') {
+  PFont f;
+  f = createFont("Helvetica",36,true);
+  textSize(36);
+  text("b", 35,60);
+  text("w", 35,110);
+  text("q", 35,160);
+  text("x", 35,210);
+  if (keyPressed) {
+  } else if (key == 'b'){
     textFont(f,36);
     textAlign(CENTER);
     fill(255);
@@ -64,7 +60,8 @@ void keyPressed () {
     rect (180, 80, 50, data [14][2]/2); //1998
     rect (150, 80, 50, data [15][2]/2); //1999
     rect (120, 80, 50, data [16][2]/2); //2000#wemadeit
-  } else if (key == 'w') {
+   }  
+ else if (key == 'w') {
     textFont(f,36);
     textAlign(CENTER);
     fill(255);
@@ -99,10 +96,41 @@ void keyPressed () {
      rect (180, 80, 50, data [14][2]/2); //1998
      rect (150, 80, 50, data [15][2]/2); //1999
      rect (120, 80, 50, data [16][2]/2); //2000#wemadeit
- }
+ } else if (key == 's') {
+     textFont(f,36);
+     textAlign(CENTER);
+     fill(255);
+      text("Staten Island Ferry", 250, 70);
+      text("2000-1993", 250, 40);
+      //fill (0,0,255);    
+     rect (330, 80, 50, data [9][2]/2); //1993
+    //fill (0,,);
+     rect (300, 80, 50, data [10][2]/2); //1994
+      //fill (200);
+     rect (270, 80, 50, data [11][2]/2); //1995
+      //fill (185);
+     rect (240, 80, 50, data [12][2]/2); //1996
+     rect (210, 80, 50, data [13][2]/2); //1997
+     rect (180, 80, 50, data [14][2]/2); //1998
+     rect (150, 80, 50, data [15][2]/2); //1999
+     rect (120, 80, 50, data [16][2]/2); //2000#wemadeit
+  }else if (key == '5') {
+     textFont(f,36);
+     textAlign(CENTER);
+     fill(255);
+      text("West 50th St.", 250, 70);
+      text("2000-1993", 250, 40);
+      //fill (0,0,255);    
+     rect (330, 80, 50, data [9][2]/2); //1993
+    //fill (0,,);
+     rect (300, 80, 50, data [10][2]/2); //1994
+      //fill (200);
+     rect (270, 80, 50, data [11][2]/2); //1995
+      //fill (185);
+     rect (240, 80, 50, data [12][2]/2); //1996
+     rect (210, 80, 50, data [13][2]/2); //1997
+     rect (180, 80, 50, data [14][2]/2); //1998
+     rect (150, 80, 50, data [15][2]/2); //1999
+     rect (120, 80, 50, data [16][2]/2); //2000#wemadeit
+   }
 }
-
-  
-  
- 
- 
