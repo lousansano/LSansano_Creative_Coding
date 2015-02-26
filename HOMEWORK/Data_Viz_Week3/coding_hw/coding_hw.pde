@@ -35,15 +35,26 @@ void setup(){
 void draw (){
   background(25);
   PFont f;
+  PFont d;
   f = createFont("Helvetica",36,true);
+  d = createFont("Helvetica Bold",36,true);
   textSize(36);
   text("b", 35,60);
   text("w", 35,110);
   text("q", 35,160);
-  text("x", 35,210);
+  text("s", 35,210);
+  text("5", 35,260);
+  text("Cyclists: 1993-2000", 85, 75);
   if (keyPressed) {
   } else if (key == 'b'){
+    background(0);
+    textFont(d,50);
+    text("b", 35,60);
     textFont(f,36);
+    text("w", 35,110);
+    text("q", 35,160);
+    text("s", 35,210);
+    text("5", 35,260);
     textAlign(CENTER);
     fill(255);
       text("Brooklyn Bridge", 250, 70);
@@ -62,7 +73,14 @@ void draw (){
     rect (120, 80, 50, data [16][2]/2); //2000#wemadeit
    }  
  else if (key == 'w') {
-    textFont(f,36);
+   background(0);
+   textFont(d,50);
+   text("w", 35,110);
+   textFont(f,36);
+    text("b", 35,60);
+    text("q", 35,160);
+    text("s", 35,210);
+    text("5", 35,260);
     textAlign(CENTER);
     fill(255);
       text("Williamsburg Bridge", 250, 70);
@@ -79,9 +97,16 @@ void draw (){
     rect (150, 80, 50, data [15][4]/2); //1999
     rect (120, 80, 50, data [16][4]/2); //2000#wemadeit
   } else if (key == 'q') {
-     textFont(f,36);
+    background(0); 
+    textFont(d,50);
+    text("q", 35,160);
+    textFont(f,36);
      textAlign(CENTER);
      fill(255);
+     text("b", 35,60);
+     text("w", 35,110);
+     text("s", 35,210);
+     text("5", 35,260);
       text("Queensboro Bridge", 250, 70);
       text("2000-1993", 250, 40);
       //fill (0,0,255);    
@@ -97,7 +122,14 @@ void draw (){
      rect (150, 80, 50, data [15][2]/2); //1999
      rect (120, 80, 50, data [16][2]/2); //2000#wemadeit
  } else if (key == 's') {
+     background(0);
+     textFont(d,50);
+     text("s", 35,210);
      textFont(f,36);
+     text("b", 35,60);
+     text("w", 35,110);
+     text("q", 35,160);
+     text("5", 35,260);
      textAlign(CENTER);
      fill(255);
       text("Staten Island Ferry", 250, 70);
@@ -115,7 +147,14 @@ void draw (){
      rect (150, 80, 50, data [15][2]/2); //1999
      rect (120, 80, 50, data [16][2]/2); //2000#wemadeit
   }else if (key == '5') {
+     background(0); 
+     textFont(d,50);
+     text("5", 35,260);
      textFont(f,36);
+     text("b", 35,60);
+     text("w", 35,110);
+     text("s", 35,210);
+     text("q", 35,160);
      textAlign(CENTER);
      fill(255);
       text("West 50th St.", 250, 70);
