@@ -81,27 +81,27 @@ void draw()
 
 void keyPressed() {
   if ( key == 's' ) snare.trigger(); 
-  if ( key == 'k' ) kick.trigger();
-  if ( key == 'c' ) crash.trigger();
-  if ( key == 'h' ) chat.trigger();
-  if ( key == 'o' ) ohat.trigger();
-  if ( key == 't' ) tom1.trigger();
-  if ( key == 'y' ) tom2.trigger();
-  if ( key == 'r' ) rim.trigger();
-  if ( key == 'a' ) air.trigger();
+ else if ( key == 'k' ) kick.trigger();
+ else if ( key == 'c' ) crash.trigger();
+ else if ( key == 'h' ) chat.trigger();
+ else if ( key == 'o' ) ohat.trigger();
+ else if ( key == 't' ) tom1.trigger();
+ else if ( key == 'y' ) tom2.trigger();
+ else if ( key == 'r' ) rim.trigger();
+ else if ( key == 'a' ) air.trigger();
+ else if ( key == '1' ){
+      lit.play();
+       mj.pause();
+      smb.pause();
+ }
+ else if ( key == '2' ) {
+   mj.play();
+   lit.pause();
+   smb.pause();
+  } 
+  else if ( key == '3' ) {
+   smb.play();
+   mj.pause();
+   lit.pause();
   }
-//  } else {
-//  if ( key == '1' ) lit.play();
-//   mj.pause();
-//   smb.pause();
-//  } else {
-//  if ( key == '2' ) mj.play();
-//   lit.pause();
-//   smb.pause();
-//  } else {
-//  if ( key == '3' ) smb.play();
-//   mj.pause();
-//   lit.pause();
-//  }
-// }
-// }
+ }
