@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>71E56BB5-F8A7-4B4F-83AC-E58D67C5BFFF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>videoPlayerExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DE1F48040A236350A9B017686B688B52D75B7B5A</key>
+		<string>https://github.com/lousansano/LSansano_Creative_Coding.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HOMEWORK/OF_HW1/SANSANO OF HW/videoPlayerExample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DE1F48040A236350A9B017686B688B52D75B7B5A</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lousansano/LSansano_Creative_Coding.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DE1F48040A236350A9B017686B688B52D75B7B5A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DE1F48040A236350A9B017686B688B52D75B7B5A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LSansano_Creative_Coding</string>
+		</dict>
+	</array>
+</dict>
+</plist>
